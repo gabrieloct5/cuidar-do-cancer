@@ -30,7 +30,7 @@ const Home = () => {
   const features = [
     "Único em Brasília com percurso estruturado",
     "Conduzido por oncologista titular da SBOC",
-    "Integrado por conceitos avançados (Salutogênese, Logoterapia)",
+    "Integrado por conceitos avançados (Salutogênese, Logoterapia e Crescimento Pós Trauma)",
     "Complementa psicoterapia e oncologia convencional",
     "Foco na experiência do paciente",
     "Ambiente seguro e humanizado",
@@ -79,8 +79,7 @@ const Home = () => {
             </p>
             <p className="text-lg text-muted-foreground text-center leading-relaxed">
               Em 6 meses, você percorre temas essenciais, recebe suporte interdisciplinar e encontra 
-              um ambiente seguro, científico e livre de falsas promessas. O programa é 100% particular 
-              e <strong className="text-foreground">complementar</strong> ao tratamento oncológico convencional.
+              um ambiente seguro, científico e livre de falsas promessas. O programa é <strong className="text-foreground">complementar</strong> ao tratamento oncológico convencional.
             </p>
           </div>
         </div>

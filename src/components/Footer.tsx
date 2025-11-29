@@ -35,12 +35,17 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/sobre" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Sobre a Clínica
+                  Sobre o Programa
                 </Link>
               </li>
               <li>
                 <Link to="/servicos" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Serviços
+                  Conteúdo
+                </Link>
+              </li>
+              <li>
+                <Link to="/espaco" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  Espaço
                 </Link>
               </li>
               <li>

@@ -10,8 +10,9 @@ const Navigation = () => {
 
   const links = [
     { href: "/", label: "Home" },
-    { href: "/sobre", label: "Sobre a Clínica" },
-    { href: "/servicos", label: "Serviços" },
+    { href: "/sobre", label: "Sobre o Programa" },
+    { href: "/servicos", label: "Conteúdo" },
+    { href: "/espaco", label: "Espaço" },
     { href: "/contato", label: "Contato" },
   ];
 

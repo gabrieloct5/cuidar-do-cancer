@@ -32,7 +32,7 @@ const Services = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Serviços
+            Conteúdo
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Um programa estruturado de 6 meses para acompanhá-lo em todas as dimensões
@@ -47,7 +47,6 @@ const Services = () => {
                 <div className="bg-primary rounded-full w-12 h-12 flex items-center justify-center">
                   <Calendar className="h-6 w-6 text-primary-foreground" />
                 </div>
-                <h2 className="text-3xl font-bold text-primary">Programa de 6 Meses</h2>
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 O Programa de Enfrentamento ao Câncer foi desenhado para acompanhar o paciente 
@@ -77,12 +76,13 @@ const Services = () => {
                 <div className="bg-primary-lighter rounded-full w-12 h-12 flex items-center justify-center">
                   <Heart className="h-6 w-6 text-primary" />
                 </div>
-                <h2 className="text-3xl font-bold text-primary">Consultas em Oncologia Integrativa</h2>
+                <h2 className="text-3xl font-bold text-primary">Consultas Temáticas</h2>
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 As consultas temáticas são o eixo central do Programa. Em cada uma delas, o 
-                paciente é acompanhado em temas fundamentais para o enfrentamento do câncer, 
-                sempre com um olhar para o futuro, para o protagonismo e para a construção de sentido.
+                paciente recebe a prescrição de medicamentos conforme necessidade e também é 
+                acompanhado em temas fundamentais para o enfrentamento do câncer, sempre com um 
+                olhar para o futuro, para o protagonismo e para a construção de sentido.
               </p>
               <div className="bg-muted/30 rounded-xl p-6">
                 <h3 className="font-semibold text-lg mb-4 text-primary">
