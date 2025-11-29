@@ -28,7 +28,7 @@ const About = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Sobre a Clínica
+            Sobre o Programa
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Uma história de cuidado integral e humanizado
@@ -74,8 +74,7 @@ const About = () => {
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
                   Oferecer um cuidado integral, acessível e eficiente, que una ciência e 
-                  saberes integrativos, capaz de inspirar propósito, dignidade e sentido 
-                  diante do sofrimento humano.
+                  saberes integrativos, capaz de inspirar propósito e dignidade diante do sofrimento humano.
                 </p>
               </CardContent>
             </Card>
@@ -148,17 +147,6 @@ const About = () => {
           </Card>
         </section>
 
-        {/* Space */}
-        <section>
-          <div className="bg-card rounded-2xl p-8 md:p-12 shadow-soft">
-            <h2 className="text-3xl font-bold text-primary mb-6">O Espaço</h2>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              O ambiente foi pensado para acolher, inspirar segurança e favorecer a escuta profunda. 
-              É um espaço onde o paciente pode falar sobre medos, dúvidas, crenças e expectativas, 
-              sem julgamentos e com total respeito à sua história e às suas escolhas.
-            </p>
-          </div>
-        </section>
       </div>
     </div>
   );
