@@ -1,3 +1,5 @@
+import casaAdharaLogo from "@/assets/casa-adhara-logo.png";
+
 const Space = () => {
   return (
     <div className="min-h-screen pt-32 pb-20 px-4">
@@ -5,6 +7,13 @@ const Space = () => {
         {/* Description */}
         <section className="mb-16">
           <div className="bg-card rounded-2xl p-8 md:p-12 shadow-soft">
+            <div className="flex justify-center mb-8">
+              <img 
+                src={casaAdharaLogo} 
+                alt="Casa Adhara"
+                className="h-16 md:h-20 w-auto"
+              />
+            </div>
             <p className="text-lg text-muted-foreground leading-relaxed text-center">
               O Programa ocorre em parceria com a Casa Adhara. Um ambiente construído para acolher, inspirar segurança e favorecer a escuta profunda. 
               É um espaço onde o paciente pode falar sobre medos, dúvidas, crenças e expectativas, 
