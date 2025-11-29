@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Target, Eye, Award } from "lucide-react";
+import drGabriel from "@/assets/dr-gabriel.jpg";
 
 const About = () => {
   const values = [
@@ -123,13 +124,22 @@ const About = () => {
         <section className="mb-20">
           <Card className="border-none shadow-soft bg-gradient-to-br from-primary-lighter to-card">
             <CardContent className="pt-8">
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="bg-primary rounded-full w-12 h-12 flex items-center justify-center">
-                  <Award className="h-6 w-6 text-primary-foreground" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-primary">Dr. Gabriel Machado Leite</h3>
-                  <p className="text-muted-foreground">Condução do Programa</p>
+              <div className="flex flex-col md:flex-row items-center md:items-start gap-6 mb-6">
+                <img 
+                  src={drGabriel} 
+                  alt="Dr. Gabriel Machado Leite"
+                  className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-elegant"
+                />
+                <div className="flex-1 text-center md:text-left">
+                  <div className="flex items-center justify-center md:justify-start space-x-3 mb-2">
+                    <div className="bg-primary rounded-full w-12 h-12 flex items-center justify-center">
+                      <Award className="h-6 w-6 text-primary-foreground" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-primary">Dr. Gabriel Machado Leite</h3>
+                      <p className="text-muted-foreground">Condução do Programa</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="space-y-3">
