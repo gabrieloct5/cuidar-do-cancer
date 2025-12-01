@@ -14,14 +14,6 @@ const testimonials = [
     text: "O curso permitiu que eu sistematizasse uma série de questões que já haviam sido afloradas dentro de mim desde o diagnóstico e aprofundasse-me em cada uma delas de uma maneira que eu jamais faria por conta própria.",
   },
   {
-    name: "Raquel Araujo",
-    text: "Gostei muito de refletir qual era o sentido da doença para minha vida, responder o primeiro questionário foi muito impactante para mim. Ademais, amei a maneira como a morte, medos, caridade foram abordados.",
-  },
-  {
-    name: "Raquel Araujo",
-    text: "Impossível responder o que eu menos gostei porque todos os temas foram importantíssimos para o universo de quem está lutando contra a doença e cada um deles foi muito bem abordado.",
-  },
-  {
     name: "Daniela Machado",
     text: "Os temas abordados foram importantes para que não fiquemos achando que nossa doença é o fim da linha. Encaramos como aprendizado. Hoje me acho uma pessoa muito melhor.",
   },
@@ -30,12 +22,32 @@ const testimonials = [
     text: "O programa me ajudou a refletir sobre tudo que tenho passado em meu tratamento, mostrando-me alternativas e soluções para enfrentar de uma maneira mais forte e segura.",
   },
   {
+    name: "Juliana Toledo",
+    text: "Depois do Programa a minha vida foi transformada, em todos os sentidos. Mente, corpo, espírito, pensamento no futuro, atitudes e ações. Hoje eu vejo como eu cresci depois disso tudo.",
+  },
+  {
+    name: "Marcia Ferreira",
+    text: "Para mim, foi muito importante para enfrentar esse tratamento de uma forma mais positiva. O câncer não é o fim, ele pode ser o começo de uma transformação.",
+  },
+  {
+    name: "Raquel Araujo",
+    text: "Gostei muito de refletir qual era o sentido da doença para minha vida, responder o primeiro questionário foi muito impactante para mim. Ademais, amei a maneira como a morte, medos, caridade foram abordados.",
+  },
+  {
+    name: "Aline Martins",
+    text: "Para mim foi um divisor de águas, a gente em um ano viveu coisas que em vários anos não conseguimos viver.",
+  },
+  {
     name: "Larissa Soares",
     text: "Das reflexões que pude ter. Alguns tópicos abordados me deixaram bastante pensativa, pois nunca tinha tirado um tempo do meu dia a dia para refletir sobre meus medos, desafios, sonhos e etc.",
   },
   {
-    name: "Juliana Toledo",
-    text: "Depois do Programa a minha vida foi transformada, em todos os sentidos. Mente, corpo, espírito, pensamento no futuro, atitudes e ações. Hoje eu vejo como eu cresci depois disso tudo.",
+    name: "Vera",
+    text: "O programa nos ensina a nos ver de uma forma que não estamos acostumados, você se valoriza mais, nos vemos de forma mais liberta, mais leve.",
+  },
+  {
+    name: "Raquel Araujo",
+    text: "Impossível responder o que eu menos gostei porque todos os temas foram importantíssimos para o universo de quem está lutando contra a doença e cada um deles foi muito bem abordado.",
   },
 ];
 
