@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo and Tagline */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-4 mb-4">
-              <img src={logo} alt="Logo Programa de Enfrentamento ao Câncer" className="h-20 w-auto brightness-0 invert" />
+              <img src={logo} alt="Logo Programa de Enfrentamento ao Câncer" className="h-20 w-auto" />
               <div>
                 <div className="font-semibold text-base">PROGRAMA DE</div>
                 <div className="font-bold text-xl">ENFRENTAMENTO AO CÂNCER</div>
