@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Shield, Users, Sparkles, ArrowRight, CheckCircle2 } from "lucide-react";
+import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 const Home = () => {
   const differentials = [
@@ -123,6 +124,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Testimonials */}
+      <TestimonialsCarousel />
 
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-br from-primary to-primary-light text-primary-foreground">

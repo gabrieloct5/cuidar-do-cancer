@@ -3,6 +3,7 @@ import space1 from "@/assets/space-1.jpg";
 import space2 from "@/assets/space-2.jpg";
 import space3 from "@/assets/space-3.jpg";
 import space4 from "@/assets/space-4.jpg";
+import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 const Space = () => {
   return (
@@ -59,6 +60,9 @@ const Space = () => {
             </div>
           </div>
         </section>
+
+        {/* Testimonials */}
+        <TestimonialsCarousel />
       </div>
     </div>
   );

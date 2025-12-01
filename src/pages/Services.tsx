@@ -3,6 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { CheckCircle2, Calendar, Leaf, Heart, Brain } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 const Services = () => {
   const programComponents = [
@@ -217,8 +218,11 @@ const Services = () => {
           </Card>
         </section>
 
+        {/* Testimonials */}
+        <TestimonialsCarousel />
+
         {/* CTA */}
-        <div className="text-center">
+        <div className="text-center mt-8">
           <Button asChild size="lg" className="text-lg">
             <Link to="/contato">Agende Sua Consulta</Link>
           </Button>

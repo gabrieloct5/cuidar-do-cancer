@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Target, Eye, Award } from "lucide-react";
 import drGabriel from "@/assets/dr-gabriel.jpg";
+import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 const About = () => {
   const values = [
@@ -156,6 +157,9 @@ const About = () => {
             </CardContent>
           </Card>
         </section>
+
+        {/* Testimonials */}
+        <TestimonialsCarousel />
 
       </div>
     </div>
