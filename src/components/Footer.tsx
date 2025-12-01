@@ -9,11 +9,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo and Tagline */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
-              <img src={logo} alt="Logo" className="h-12 w-auto brightness-0 invert" />
+            <div className="flex items-center space-x-4 mb-4">
+              <img src={logo} alt="Logo Programa de Enfrentamento ao Câncer" className="h-20 w-auto brightness-0 invert" />
               <div>
-                <div className="font-semibold text-sm">PROGRAMA DE</div>
-                <div className="font-bold text-base">ENFRENTAMENTO AO CÂNCER</div>
+                <div className="font-semibold text-base">PROGRAMA DE</div>
+                <div className="font-bold text-xl">ENFRENTAMENTO AO CÂNCER</div>
               </div>
             </div>
             <p className="text-primary-foreground/80 text-sm mb-4">
