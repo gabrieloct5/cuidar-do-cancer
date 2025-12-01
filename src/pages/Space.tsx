@@ -1,4 +1,8 @@
 import casaAdharaLogo from "@/assets/casa-adhara-logo.png";
+import space1 from "@/assets/space-1.jpg";
+import space2 from "@/assets/space-2.jpg";
+import space3 from "@/assets/space-3.jpg";
+import space4 from "@/assets/space-4.jpg";
 
 const Space = () => {
   return (
@@ -22,17 +26,37 @@ const Space = () => {
           </div>
         </section>
 
-        {/* Photos Section - Placeholder */}
+        {/* Photos Section */}
         <section>
           <div className="grid md:grid-cols-2 gap-6">
-            {[1, 2, 3, 4].map((item) => (
-              <div
-                key={item}
-                className="aspect-video bg-muted rounded-2xl shadow-soft flex items-center justify-center"
-              >
-                <p className="text-muted-foreground">Foto do espaço {item}</p>
-              </div>
-            ))}
+            <div className="aspect-video rounded-2xl shadow-soft overflow-hidden">
+              <img 
+                src={space1} 
+                alt="Jardim interno da Casa Adhara com estátua de Buda"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="aspect-video rounded-2xl shadow-soft overflow-hidden">
+              <img 
+                src={space2} 
+                alt="Sala de atendimento com poltronas e decoração acolhedora"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="aspect-video rounded-2xl shadow-soft overflow-hidden">
+              <img 
+                src={space3} 
+                alt="Espaço de convivência com sofás e plantas"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="aspect-video rounded-2xl shadow-soft overflow-hidden">
+              <img 
+                src={space4} 
+                alt="Momento de conexão e acolhimento no espaço"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </section>
       </div>
