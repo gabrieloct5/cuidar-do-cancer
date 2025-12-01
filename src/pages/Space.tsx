@@ -11,7 +11,7 @@ const Space = () => {
               <img 
                 src={casaAdharaLogo} 
                 alt="Casa Adhara"
-                className="h-24 md:h-32 w-auto"
+                className="h-40 md:h-52 w-auto"
               />
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed text-center">
