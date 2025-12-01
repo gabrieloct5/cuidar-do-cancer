@@ -9,6 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { MapPin, Phone, Mail, Send, MessageCircle } from "lucide-react";
 import { toast } from "sonner";
+import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 const formSchema = z.object({
   name: z.string().min(2, "Nome deve ter pelo menos 2 caracteres").max(100, "Nome muito longo"),
@@ -43,24 +44,6 @@ const Contact = () => {
     form.reset();
     setIsSubmitting(false);
   };
-
-  const testimonials = [
-    {
-      name: "Maria Silva",
-      text: "O programa me ajudou a encontrar paz e propósito durante o tratamento. A equipe é extremamente acolhedora.",
-      role: "Paciente",
-    },
-    {
-      name: "João Santos",
-      text: "Encontrei aqui o suporte que precisava para enfrentar essa jornada com mais clareza e esperança.",
-      role: "Paciente",
-    },
-    {
-      name: "Ana Costa",
-      text: "O cuidado científico aliado ao acolhimento humano fez toda a diferença na minha recuperação.",
-      role: "Paciente",
-    },
-  ];
 
   return (
     <div className="min-h-screen pt-32 pb-20 px-4">
@@ -226,26 +209,7 @@ const Contact = () => {
         </div>
 
         {/* Testimonials */}
-        <section>
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-12">
-            Depoimentos
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="border-none shadow-soft">
-                <CardContent className="pt-8">
-                  <p className="text-muted-foreground italic mb-6 leading-relaxed">
-                    "{testimonial.text}"
-                  </p>
-                  <div>
-                    <p className="font-semibold text-primary">{testimonial.name}</p>
-                    <p className="text-sm text-muted-foreground">{testimonial.role}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </section>
+        <TestimonialsCarousel />
       </div>
     </div>
   );
