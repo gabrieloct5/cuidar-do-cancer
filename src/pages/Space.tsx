@@ -29,32 +29,46 @@ const Space = () => {
 
         {/* Photos Section */}
         <section>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="aspect-video rounded-2xl shadow-soft overflow-hidden">
+          <div className="grid md:grid-cols-3 gap-4">
+            <div className="aspect-video rounded-xl shadow-soft overflow-hidden">
               <img 
                 src={space1} 
                 alt="Jardim interno da Casa Adhara com estátua de Buda"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="aspect-video rounded-2xl shadow-soft overflow-hidden">
+            <div className="aspect-video rounded-xl shadow-soft overflow-hidden">
               <img 
                 src={space2} 
                 alt="Sala de atendimento com poltronas e decoração acolhedora"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="aspect-video rounded-2xl shadow-soft overflow-hidden">
+            <div className="aspect-video rounded-xl shadow-soft overflow-hidden">
               <img 
                 src={space3} 
                 alt="Espaço de convivência com sofás e plantas"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="aspect-video rounded-2xl shadow-soft overflow-hidden">
+            <div className="aspect-video rounded-xl shadow-soft overflow-hidden">
               <img 
                 src={space4} 
                 alt="Momento de conexão e acolhimento no espaço"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="aspect-video rounded-xl shadow-soft overflow-hidden">
+              <img 
+                src={space1} 
+                alt="Espaço 5 - adicione sua foto"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="aspect-video rounded-xl shadow-soft overflow-hidden">
+              <img 
+                src={space1} 
+                alt="Espaço 6 - adicione sua foto"
                 className="w-full h-full object-cover"
               />
             </div>
