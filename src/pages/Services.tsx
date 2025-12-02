@@ -4,6 +4,7 @@ import { CheckCircle2, Calendar, Leaf, Heart, Brain } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
+import conteudoHero from "@/assets/conteudo-hero.png";
 
 const Services = () => {
   const programComponents = [
@@ -28,17 +29,29 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-32 pb-20 px-4">
-      <div className="container mx-auto max-w-6xl">
-        {/* Header */}
-        <div className="text-center mb-16 animate-fade-in">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Conteúdo
-          </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Um programa estruturado de 6 meses para acompanhá-lo em todas as dimensões
-          </p>
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="relative min-h-[50vh] flex items-center overflow-hidden">
+        <img 
+          src={conteudoHero} 
+          alt="Conteúdo - Programa de Enfrentamento ao Câncer" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/40 to-transparent"></div>
+        
+        <div className="container mx-auto max-w-6xl relative z-10 px-4 py-32">
+          <div className="max-w-2xl animate-fade-in">
+            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+              Conteúdo
+            </h1>
+            <p className="text-xl text-muted-foreground">
+              Um programa estruturado de 6 meses para acompanhá-lo em todas as dimensões
+            </p>
+          </div>
         </div>
+      </section>
+
+      <div className="container mx-auto max-w-6xl px-4 py-16">
 
         {/* Program Overview */}
         <section className="mb-16">
