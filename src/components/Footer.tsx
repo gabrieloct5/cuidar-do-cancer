@@ -12,12 +12,6 @@ const Footer = () => {
             <div className="flex items-start mb-6">
               <img src={logo} alt="Logo Programa de Enfrentamento ao Câncer" className="h-32 md:h-40 w-auto" />
             </div>
-            <p className="text-primary-foreground/80 text-sm mb-4">
-              Ciência, Humanidade e Propósito em Cada Etapa da Jornada
-            </p>
-            <p className="text-primary-foreground/60 text-xs">
-              Cuidado integrativo complementar ao tratamento oncológico convencional
-            </p>
           </div>
 
           {/* Navigation Links */}
