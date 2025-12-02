@@ -28,24 +28,12 @@ const About = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-[70vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[85vh] overflow-hidden">
         <img 
           src={sobreHero} 
           alt="Sobre o Programa - Programa de Enfrentamento ao Câncer" 
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/40 to-transparent"></div>
-        
-        <div className="container mx-auto max-w-6xl relative z-10 px-4 py-32">
-          <div className="max-w-2xl animate-fade-in">
-            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-              Sobre o Programa
-            </h1>
-            <p className="text-xl text-muted-foreground">
-              Uma história de cuidado integral e humanizado
-            </p>
-          </div>
-        </div>
       </section>
 
       <div className="container mx-auto max-w-6xl px-4 py-16">
