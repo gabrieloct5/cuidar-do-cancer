@@ -58,39 +58,39 @@ const TestimonialsCarousel = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-12">
           Depoimentos
         </h2>
-        <div className="relative">
-          <Carousel
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            className="w-full"
-          >
-            <CarouselContent className="-ml-2 md:-ml-4">
-              {testimonials.map((testimonial, index) => (
-                <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
-                  <Card className="border-none shadow-soft h-full">
-                    <CardContent className="pt-8 pb-8 flex flex-col h-full">
-                      <Quote className="h-8 w-8 text-primary/30 mb-4" />
-                      <p className="text-muted-foreground italic mb-6 leading-relaxed flex-grow">
-                        "{testimonial.text}"
-                      </p>
-                      <div className="pt-4 border-t border-border">
-                        <p className="font-semibold text-primary">{testimonial.name}</p>
-                        <p className="text-sm text-muted-foreground">Participante do Programa</p>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious className="-left-4 md:-left-12" />
-            <CarouselNext className="-right-4 md:-right-12" />
-          </Carousel>
-          <p className="text-center text-sm text-muted-foreground mt-6">
-            Use as setas para navegar • {testimonials.length} depoimentos
-          </p>
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          className="w-full"
+        >
+          <CarouselContent className="-ml-2 md:-ml-4">
+            {testimonials.map((testimonial, index) => (
+              <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
+                <Card className="border-none shadow-soft h-full">
+                  <CardContent className="pt-8 pb-8 flex flex-col h-full">
+                    <Quote className="h-8 w-8 text-primary/30 mb-4" />
+                    <p className="text-muted-foreground italic mb-6 leading-relaxed flex-grow">
+                      "{testimonial.text}"
+                    </p>
+                    <div className="pt-4 border-t border-border">
+                      <p className="font-semibold text-primary">{testimonial.name}</p>
+                      <p className="text-sm text-muted-foreground">Participante do Programa</p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+        </Carousel>
+        <div className="flex items-center justify-center gap-4 mt-6">
+          <CarouselPrevious />
+          <CarouselNext />
         </div>
+        <p className="text-center text-sm text-muted-foreground mt-4">
+          {testimonials.length} depoimentos — use as setas para navegar
+        </p>
       </div>
     </section>
   );
