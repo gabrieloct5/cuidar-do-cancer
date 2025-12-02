@@ -83,8 +83,8 @@ const TestimonialsCarousel = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="hidden md:flex absolute -left-4 md:-left-12 top-1/2 -translate-y-1/2" />
-          <CarouselNext className="hidden md:flex absolute -right-4 md:-right-12 top-1/2 -translate-y-1/2" />
+          <CarouselPrevious className="absolute -left-4 md:-left-12 top-1/2 -translate-y-1/2" />
+          <CarouselNext className="absolute -right-4 md:-right-12 top-1/2 -translate-y-1/2" />
         </Carousel>
         <p className="text-center text-sm text-muted-foreground mt-4">
           {testimonials.length} depoimentos — use as setas laterais para navegar
