@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
-import logo from "@/assets/logo-footer-white.png";
+import logo from "@/assets/logo-footer-horizontal.png";
 
 const Footer = () => {
   return (
@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo and Tagline */}
           <div className="md:col-span-2">
-            <div className="flex items-start space-x-4 mb-4">
-              <img src={logo} alt="Logo Programa de Enfrentamento ao Câncer" className="h-24 w-auto" />
+            <div className="flex items-start mb-6">
+              <img src={logo} alt="Logo Programa de Enfrentamento ao Câncer" className="h-32 md:h-40 w-auto" />
             </div>
             <p className="text-primary-foreground/80 text-sm mb-4">
               Ciência, Humanidade e Propósito em Cada Etapa da Jornada
