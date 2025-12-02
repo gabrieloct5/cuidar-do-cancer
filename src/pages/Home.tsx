@@ -41,11 +41,11 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <img 
           src={homeHero} 
           alt="Programa de Enfrentamento ao Câncer - Ciência e Propósito" 
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-right-bottom"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/40 to-transparent"></div>
         

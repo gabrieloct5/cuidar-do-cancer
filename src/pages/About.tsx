@@ -28,11 +28,11 @@ const About = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-[50vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <img 
           src={sobreHero} 
           alt="Sobre o Programa - Programa de Enfrentamento ao Câncer" 
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/40 to-transparent"></div>
         
