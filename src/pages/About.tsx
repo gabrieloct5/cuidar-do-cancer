@@ -2,8 +2,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Target, Eye, Award } from "lucide-react";
 import drGabriel from "@/assets/dr-gabriel.jpg";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
-import sobreHero from "@/assets/sobre-hero.png";
-
 const About = () => {
   const values = [
     "Ética",
@@ -27,15 +25,6 @@ const About = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative min-h-[85vh] overflow-hidden">
-        <img 
-          src={sobreHero} 
-          alt="Sobre o Programa - Programa de Enfrentamento ao Câncer" 
-          className="absolute inset-0 w-full h-full object-cover object-center"
-        />
-      </section>
-
       <div className="container mx-auto max-w-6xl px-4 py-16">
 
         {/* History */}
