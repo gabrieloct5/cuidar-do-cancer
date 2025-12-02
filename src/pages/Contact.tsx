@@ -148,7 +148,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">Localização</h4>
-                      <p className="text-muted-foreground">Brasília – DF</p>
+                      <p className="text-muted-foreground">Conjunto, Shis Qi 21 Conjunto 1, Casa 02 - Lago Sul, Brasília - DF, 71655-210</p>
                     </div>
                   </div>
 
