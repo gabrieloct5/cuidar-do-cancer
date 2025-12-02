@@ -52,7 +52,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span className="text-primary-foreground/80">Conjunto, Shis Qi 21 Conjunto 1, Casa 02 - Lago Sul, Brasília - DF, 71655-210</span>
+                <span className="text-primary-foreground/80">SHIS QI 21 Conjunto 1, Casa 02 - Lago Sul, Brasília - DF, CEP: 71655-210</span>
               </li>
               <li className="flex items-start space-x-2">
                 <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
