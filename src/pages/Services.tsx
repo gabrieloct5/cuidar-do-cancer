@@ -44,7 +44,7 @@ const Services = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
               Conteúdo
             </h1>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-foreground">
               Um programa estruturado de 6 meses para acompanhá-lo em todas as dimensões
             </p>
           </div>
