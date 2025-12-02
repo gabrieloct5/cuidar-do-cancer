@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-header-green.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,16 +23,8 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-            <img src={logo} alt="Programa de Enfrentamento ao Câncer" className="h-12 w-auto" />
-            <div className="hidden lg:block">
-              <div className="text-primary font-semibold text-sm leading-tight">
-                PROGRAMA DE
-              </div>
-              <div className="text-primary font-bold text-base leading-tight">
-                ENFRENTAMENTO AO CÂNCER
-              </div>
-            </div>
+          <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
+            <img src={logo} alt="Programa de Enfrentamento ao Câncer" className="h-16 md:h-20 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
