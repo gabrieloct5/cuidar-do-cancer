@@ -158,7 +158,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">Telefone</h4>
-                      <p className="text-muted-foreground">Em breve</p>
+                      <p className="text-muted-foreground">(61) 98164-6661</p>
                     </div>
                   </div>
 
@@ -168,7 +168,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">Email</h4>
-                      <p className="text-muted-foreground">Em breve</p>
+                      <p className="text-muted-foreground">gabrieloct5@gmail.com</p>
                     </div>
                   </div>
 
@@ -183,7 +183,7 @@ const Contact = () => {
                         size="sm" 
                         className="bg-[#25D366] hover:bg-[#1fb855] text-white"
                         onClick={() => {
-                          const phoneNumber = "5561999999999";
+                          const phoneNumber = "5561981646661";
                           const message = encodeURIComponent("Olá! Gostaria de saber mais sobre o Programa de Enfrentamento ao Câncer.");
                           window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
                         }}
