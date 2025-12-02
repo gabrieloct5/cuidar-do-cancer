@@ -4,6 +4,8 @@ import space1 from "@/assets/space-1.jpg";
 import space2 from "@/assets/space-2.jpg";
 import space3 from "@/assets/space-3.jpg";
 import space4 from "@/assets/space-4.jpg";
+import space5 from "@/assets/space-5.jpg";
+import space6 from "@/assets/space-6.jpg";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 const Space = () => {
@@ -63,15 +65,15 @@ const Space = () => {
             </div>
             <div className="aspect-video rounded-xl shadow-soft overflow-hidden">
               <img 
-                src={space1} 
-                alt="Espaço 5 - adicione sua foto"
+                src={space5} 
+                alt="Atividade de yoga e meditação em grupo na Casa Adhara"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="aspect-video rounded-xl shadow-soft overflow-hidden">
               <img 
-                src={space1} 
-                alt="Espaço 6 - adicione sua foto"
+                src={space6} 
+                alt="Área externa com mesa de chá e jardim"
                 className="w-full h-full object-cover"
               />
             </div>
