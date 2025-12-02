@@ -34,6 +34,7 @@ const About = () => {
           alt="Sobre o Programa - Programa de Enfrentamento ao Câncer" 
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-background/30 to-background/20"></div>
       </section>
 
       <div className="container mx-auto max-w-6xl px-4 py-16">
