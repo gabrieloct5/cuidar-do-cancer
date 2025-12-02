@@ -83,11 +83,11 @@ const TestimonialsCarousel = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
+          <div className="flex items-center justify-center gap-4 mt-6">
+            <CarouselPrevious />
+            <CarouselNext />
+          </div>
         </Carousel>
-        <div className="flex items-center justify-center gap-4 mt-6">
-          <CarouselPrevious />
-          <CarouselNext />
-        </div>
         <p className="text-center text-sm text-muted-foreground mt-4">
           {testimonials.length} depoimentos — use as setas para navegar
         </p>
