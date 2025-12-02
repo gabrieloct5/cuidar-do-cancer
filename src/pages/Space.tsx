@@ -1,4 +1,5 @@
 import casaAdharaLogo from "@/assets/casa-adhara-logo.png";
+import casaAdharaHero from "@/assets/casa-adhara-hero.png";
 import space1 from "@/assets/space-1.jpg";
 import space2 from "@/assets/space-2.jpg";
 import space3 from "@/assets/space-3.jpg";
@@ -7,8 +8,17 @@ import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 const Space = () => {
   return (
-    <div className="min-h-screen pt-32 pb-20 px-4">
-      <div className="container mx-auto max-w-6xl">
+    <div className="min-h-screen">
+      {/* Hero Image */}
+      <section className="relative h-[60vh] md:h-[70vh] w-full overflow-hidden">
+        <img 
+          src={casaAdharaHero} 
+          alt="Casa Adhara"
+          className="w-full h-full object-cover"
+        />
+      </section>
+
+      <div className="container mx-auto max-w-6xl px-4 py-20">
         {/* Description */}
         <section className="mb-16">
           <div className="bg-card rounded-2xl p-8 md:p-12 shadow-soft">
