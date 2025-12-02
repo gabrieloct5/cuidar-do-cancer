@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Shield, Users, Sparkles, ArrowRight, CheckCircle2 } from "lucide-react";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
+import homeHero from "@/assets/home-hero.png";
 
 const Home = () => {
   const differentials = [
@@ -40,25 +41,30 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 px-4 overflow-hidden bg-gradient-to-br from-primary-lighter to-background">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnptMCAzMGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnpNMTIgMThjMy4zMTQgMCA2IDIuNjg2IDYgNnMtMi42ODYgNi02IDYtNi0yLjY4Ni02LTYgMi42ODYtNiA2LTZ6bTAgMzBjMy4zMTQgMCA2IDIuNjg2IDYgNnMtMi42ODYgNi02IDYtNi0yLjY4Ni02LTYgMi42ODYtNiA2LTZ6IiBzdHJva2U9ImhzbCgxNTAgNDUlIDM1JSAvIDAuMDUpIi8+PC9nPjwvc3ZnPg==')] opacity-40"></div>
+      <section className="relative min-h-[60vh] flex items-center overflow-hidden">
+        <img 
+          src={homeHero} 
+          alt="Programa de Enfrentamento ao Câncer - Ciência e Propósito" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/40 to-transparent"></div>
         
-        <div className="container mx-auto max-w-6xl relative z-10">
-          <div className="text-center mb-12 animate-fade-in">
-            <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6 text-balance">
+        <div className="container mx-auto max-w-6xl relative z-10 px-4 py-32">
+          <div className="max-w-2xl animate-fade-in">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6 text-balance">
               Ciência, Humanidade e Propósito em Cada Etapa da Jornada
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto text-balance">
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-balance">
               Um cuidado integrativo guiado por rigor científico, acolhimento e busca por sentido
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay">
+            <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-delay">
               <Button asChild size="lg" className="text-lg">
                 <Link to="/contato">
                   Agende uma Consulta
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="text-lg">
+              <Button asChild variant="outline" size="lg" className="text-lg bg-background/80 backdrop-blur-sm">
                 <Link to="/sobre">Conheça o Programa</Link>
               </Button>
             </div>
