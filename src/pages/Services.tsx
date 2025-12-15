@@ -8,7 +8,7 @@ import conteudoHero from "@/assets/conteudo-hero.png";
 
 const Services = () => {
   const programComponents = [
-    "5 consultas temáticas",
+    "5 consultas médicas",
     "5 sessões de Acupuntura",
     "Plano de Atividade Física Personalizado (com opção de uso de aplicativo)",
     "Programa de Meditação e Yoga para Pacientes Oncológicos (5 sessões)",
@@ -90,10 +90,10 @@ const Services = () => {
                 <div className="bg-primary-lighter rounded-full w-12 h-12 flex items-center justify-center">
                   <Heart className="h-6 w-6 text-primary" />
                 </div>
-                <h2 className="text-3xl font-bold text-primary">Consultas Temáticas</h2>
+                <h2 className="text-3xl font-bold text-primary">Consultas Médicas</h2>
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                As consultas temáticas são o eixo central do Programa. Em cada uma delas, o 
+                As consultas médicas são o eixo central do Programa. Em cada uma delas, o 
                 paciente recebe a prescrição de medicamentos conforme necessidade e também é 
                 acompanhado em temas fundamentais para o enfrentamento do câncer, sempre com um 
                 olhar para o futuro, para o protagonismo e para a construção de sentido.
