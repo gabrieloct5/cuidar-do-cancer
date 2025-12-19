@@ -8,11 +8,11 @@ import conteudoHero from "@/assets/conteudo-hero.png";
 
 const Services = () => {
   const programComponents = [
-    "5 consultas médicas",
-    "5 sessões de Acupuntura",
+    "Consultas Médicas",
+    "Sessões de Acupuntura",
     "Plano de Atividade Física Personalizado (com opção de uso de aplicativo)",
-    "Programa de Meditação e Yoga para Pacientes Oncológicos (5 sessões)",
-    "Avaliação e Acompanhamento Nutricional (3 consultas)",
+    "Programa de Meditação e Yoga para Pacientes Oncológicos",
+    "Avaliação e Acompanhamento Nutricional",
     "Participação livre na agenda de eventos do Programa",
     "Workshop de Enfrentamento ao Câncer",
   ];
