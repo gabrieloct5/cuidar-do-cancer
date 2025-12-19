@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
-import logo from "@/assets/logo-footer-white-horizontal.png";
+import logo from "@/assets/logo-vertical-green.png";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo and Tagline */}
           <div className="md:col-span-2">
             <div className="flex items-start mb-6">
-              <img src={logo} alt="Logo Programa de Enfrentamento ao Câncer" className="h-32 md:h-40 w-auto" />
+              <img src={logo} alt="Logo Programa de Enfrentamento ao Câncer" className="h-32 md:h-40 w-auto brightness-0 invert" />
             </div>
           </div>
 
