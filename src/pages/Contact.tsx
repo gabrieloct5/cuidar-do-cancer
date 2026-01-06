@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -20,8 +19,6 @@ const formSchema = z.object({
 type FormData = z.infer<typeof formSchema>;
 
 const Contact = () => {
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
   const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -31,16 +28,15 @@ const Contact = () => {
     },
   });
 
-  const onSubmit = async (data: FormData) => {
-    setIsSubmitting(true);
+  const onSubmit = (data: FormData) => {
+    const phoneNumber = "5561981646661";
+    const message = `Olá! Meu nome é ${data.name}.\n\nTelefone: ${data.phone}\n\nMensagem: ${data.message}`;
+    const encodedMessage = encodeURIComponent(message);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500));
+    window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank");
     
-    console.log("Form data:", data);
-    toast.success("Mensagem enviada com sucesso! Entraremos em contato em breve.");
+    toast.success("Redirecionando para o WhatsApp...");
     form.reset();
-    setIsSubmitting(false);
   };
 
   return (
@@ -111,8 +107,8 @@ const Contact = () => {
                       )}
                     />
 
-                    <Button type="submit" size="lg" className="w-full" disabled={isSubmitting}>
-                      {isSubmitting ? "Enviando..." : "Enviar Mensagem"}
+                    <Button type="submit" size="lg" className="w-full">
+                      Enviar Mensagem
                       <Send className="ml-2 h-5 w-5" />
                     </Button>
                   </form>
